@@ -1,6 +1,6 @@
 # FIXED-Unable-to-install-SQL-Server-Exit-code-Decimal-2146233079-in-WINDOWS-11
 
-Windows 11 based machines using high-end storage devices like SAMSUNG 250GB NVMe M.2 SSD 980 or similar having the system disk sector size; PhysicalBytesPerSectorForAtomicity greater than 4KB/4096. This value throws an error while installing Microsoft SQL Server : 
+Windows 11 based machines using high-end storage devices like SAMSUNG 250GB NVMe M.2 SSD 980 or similar having the system disk sector size(PhysicalBytesPerSectorForAtomicity) is greater than 4KB/4096. This value throws an error while installing Microsoft SQL Server : 
 Oops Unable to install  SQL Server Exit code (Decimal) - 2146233079 
 Error Description Cannot process request because the process (5220) has exited.
 
