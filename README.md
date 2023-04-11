@@ -13,3 +13,6 @@ Error Description Cannot process request because the process (5220) has exited.
 3. Done. To verify/check the value of PhysicalBytesPerSectorForAtomicity, Give the following command written below -
 
    > reg add "HKLM\SYSTEM\CurrentControlSet\Services\stornvme\Parameters\Device" /v "ForcedPhysicalSectorSizeInBytes"
+
+
+See more at https://learn.microsoft.com/en-us/troubleshoot/sql/database-engine/database-file-operations/troubleshoot-os-4kb-disk-sector-size
