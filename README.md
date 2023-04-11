@@ -1,0 +1,1 @@
+# FIXED-Unable-to-install-SQL-Server-Exit-code-Decimal-2146233079-in-WINDOWS-11
