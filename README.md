@@ -10,6 +10,7 @@ Error Description Cannot process request because the process (5220) has exited.
 2. Give the following command written below - 
 
    > reg add "HKLM\SYSTEM\CurrentControlSet\Services\stornvme\Parameters\Device" /v "ForcedPhysicalSectorSizeInBytes" /t reg_multi_sz /d "* 4095" /f
-3. Done.
+3. Done. To verify enter -
+   >  reg query "HKLM\SYSTEM\CurrentControlSet\Services\stornvme\Parameters\Device" /v "ForcedPhysicalSectorSizeInBytes"
 
 See more at https://learn.microsoft.com/en-us/troubleshoot/sql/database-engine/database-file-operations/troubleshoot-os-4kb-disk-sector-size
